@@ -1,0 +1,359 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 1px;
+}
+
+.wrap {
+	margin: 0 auto;
+	max-width: 960px;
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+}
+
+.top-header {
+	background-color: rgb(103, 49, 59);
+	height: 32px;
+	border-bottom: 4px solid rgb(191, 153, 0);
+}
+
+.nav-bar {
+	background-color: rgb(255, 204, 0);
+}
+
+.nav-icons {
+	margin-left: 520px;
+}
+
+.nav-icons li {
+	display: inline-block;
+	font-size: 19px;
+	font-family: 'Open Sans', sans-serif;
+	margin: 16px;
+	color: rgb(113, 59, 55);
+}
+
+.nav-icons li a:link {
+	color: rgb(113, 59, 55);
+}
+
+.nav-icons li a:visited {
+	color: rgb(113, 59, 55);
+	text-decoration: none;
+}
+
+.nav-icons li a:hover {
+	text-decoration: none;
+}
+
+.paper {
+	position: absolute;
+	margin-top: -69px;
+	margin-left: 250px;
+}
+
+.class-title {
+	color: rgb(103, 49, 59);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+.class-subtitle {
+	color: rgb(223, 147, 164);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 22px;
+}
+
+.subtitle {
+	color: rgb(103, 49, 59);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: -18px;
+}
+
+.recipes-taught {
+	line-height: 30px;
+	float: left;
+	margin-left: -20px;
+}
+
+.ingredients {
+	line-height: 30px;
+	margin-left: 280px;
+	list-style: none;
+}
+
+.class-type li, .class-cost li {
+	display: block;
+	margin-left: 20px;
+	text-align: center;
+}
+
+.class-type, .class-cost {
+	float: left;
+	margin-left: 25px;
+	margin-top: 40px;
+}
+
+.c-type, .cost {
+	font-size: 14px;
+	border: 1px solid rgb(102, 102, 102);
+	padding: 5px 14px;
+	font-style: italic;
+}
+
+.demo, .rupees {
+	font-size: 20px;
+	color: rgb(105, 105, 105);
+	margin-top: 10px;
+}
+
+.demo {
+	text-decoration: underline;
+}
+
+.circle {
+	position: relative;
+	margin-top: 117px;
+	border-radius: 50%;
+	background-color: rgb(103, 49, 59);
+	width: 130px;
+	height: 130px;
+	margin-left: 170px;
+	text-align: center;
+}
+
+.hr-2 {
+	margin-top: -1px;
+	border: none;
+	border-top: 1px solid rgb(62, 29, 35);
+	border-bottom: 1px solid rgb(82, 39, 47)
+}
+
+.image-section {
+	border: 1.75px solid rgb(179, 152, 157);
+	margin-right: 12px;
+}
+
+.recipe-image {
+	position: relative;
+	top: -62px;
+	z-index: -1;
+	margin-bottom: -63px;
+}
+
+.circle h3, .circle p {
+	color: rgb(217, 203, 206);
+	margin-top: -9px;
+}
+
+.circle h4 {
+	color: rgb(235, 227, 228);
+	margin-top: -10px;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.tabs li {
+	display: inline-block;
+	background-color: rgb(255, 204, 0);
+	padding: 11px 14px;
+	margin: 10px 5px 0px 5px;
+	font-size: 14px;
+}
+
+.tabs .feedback {
+	margin-left: -40px;
+}
+
+.cancel, .cancel:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+.all-icons {
+	margin-bottom: -10px;
+	clear: both;
+}
+
+.top-icons li {
+	display: inline-block;
+	list-style: none;
+	margin: 80px 30px 0px 10px;
+	font-style: italic;
+}
+
+.top-icons img:first-child {
+	margin-left: -40px;
+}
+
+.like-button {
+	margin-top: 20px;
+}
+
+.more {
+	margin-top: 80px;
+}
+
+.more a {
+	background-color: rgb(255, 204, 0);
+	padding: 11px 16px;
+	font-size: 14px;
+}
+
+.more a:visited {
+	color: rgb(144, 90, 43);
+}
+
+.footer {
+	margin-top: 110px;
+	border-top: 4px solid rgb(51, 24, 29);
+	background: url(../images/footer.png) left bottom repeat-x;
+	background-color: rgb(103, 49, 59);
+}
+
+.address {
+	color: rgb(149, 111, 118);
+	margin-top: 40px;
+}
+
+.footer-container {
+	margin-bottom: 70px;
+}
+
+.info {
+	color: rgb(209, 193, 196);
+}
+
+.last {
+	margin-top: 20px;
+}
+
+.contact, .address {
+	line-height: 10px;
+}
+
+.second-part {
+	opacity: 0.50;
+}
+
+.top-recipes-1, .top-recipes-2, .top-recipes-3, .share, .top-recipes-4, .top-recipes-5 {
+	float: left;
+	padding: 2px;
+	border: 1px solid rgb(179, 152, 157);
+	margin-left: 10px;
+	width: 163px;
+	background: url(../images/top-recipe-band.png) left bottom repeat-x;
+	border-bottom: none;
+	margin-top: 120px;
+}
+
+.top-r {
+	text-align: right;
+}
+
+.top-r h4:nth-child(odd) {
+	margin-bottom: -1px;
+	margin-right: 7px;
+}
+
+.top-r p {
+	font-size: 12px;
+}
+
+.share {
+	text-align: center;
+}
+
+.share-box {
+	border: 1px solid black;
+	width: 115px;
+	height: 50px;
+	font-style: italic;
+	margin: 20px 0px 14px 20px;
+}
+
+.share p:nth-child(even){
+	text-decoration: underline;
+}
+
+.top-recipes-4 {
+	margin-left: 0px;
+	margin-top: 64px;
+}
+
+.top-recipes-5 {
+	margin-top: 64px;
+}
+
+.top-recipes {
+	margin-left: 460px;
+	margin-top: -104px;
+}
+
+.chef {
+	text-align: center;
+	margin: 24px 0px -80px 170px;
+}
+
+.chef p {
+	border: 1px solid black;
+	width: 126px;
+	height: 22px;
+	font-style: italic;
+}
+
+.chef h3 {
+	text-decoration: underline;
+	margin-left: -150px;
+}
+
+.rate {
+	padding: 6px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.this-recipe {
+	font-style: italic;
+}
+
+.row {
+	margin-top: 70px;
+}
+
+ul li {
+  color:#444; /* set color of list item to a dark gray */
+	list-style:none; /* if you’re not already using a reset */
+}
+
+.recipes-taught li:before {
+  color:rgb(223, 147, 164); /* set color to red */
+  content:"\2022"; /* /2022 is the numerical unicode for &bull; */
+  font-size:1.5em; /* set the font-size of the bullet if necessary. Make sure to use em or %*/
+  padding-right: 11px; /* give the bullet some padding from the text Make sure to use em*/
+  position:relative;
+  top:.1em; /* set the vertical position of the bullet if necessary. Make sure to use em or % */
+  margin-left: -20px;
+}
+
+.prep {
+	line-height: 30px;
+	float: left;
+	margin-left: -20px;
+}
+
+.first-part {
+	margin-top: 140px;
+}
+
+.share-search {
+	float: left;
+}
+
+.search-recipe {
+	margin-left: 10px;
+	color: rgb(113, 49, 59);
+}
